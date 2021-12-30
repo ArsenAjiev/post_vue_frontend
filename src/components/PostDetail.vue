@@ -6,7 +6,11 @@
     </p>
     <h6>Publish Date: {{article.created_at}} </h6>
 
+    <router-link :to="{name: 'postedit', params:{id:id}}"
+    class="btn btn-success mt-3"
+    > Update
 
+    </router-link>
     <button
     class="btn btn-danger mx-3 mt-3"
     @click="deleteArticle"
@@ -35,7 +39,7 @@ export default {
       required:true
     }
   },
-  name: "ArticleDetails",
+  name: "PostDetails",
   methods: {
     deleteArticle() {
       fetch(`http://127.0.0.1:8000/api/v1/post/${this.id}`, {
