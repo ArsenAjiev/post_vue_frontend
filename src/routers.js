@@ -1,5 +1,6 @@
 import {createRouter, createWebHistory} from "vue-router";
 import Home from "@/components/Home";
+import PostDetail from "@/components/PostDetail";
 
 
 
@@ -10,6 +11,13 @@ const routes = [
         component:Home
 
     },
+       {
+        path: '/details/:id',
+        name: "details",
+        component:PostDetail,
+        props:true
+
+    }
 
 
 ]

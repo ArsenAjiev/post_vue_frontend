@@ -9,7 +9,12 @@
     <h5 class="card-title">{{article.text}}</h5>
     <p class="card-text">Date: {{article.created_at}}</p>
     <h4>
-
+    <router-link
+        class="link-style"
+     :to="{name: 'details', params:{id:article.id}}"
+     >
+     Read more ...
+    </router-link>
     </h4>
 
     <hr/>
