@@ -1,6 +1,7 @@
 import {createRouter, createWebHistory} from "vue-router";
 import Home from "@/components/Home";
 import PostDetail from "@/components/PostDetail";
+import CreatePost from "@/components/CreatePost";
 
 
 
@@ -17,7 +18,14 @@ const routes = [
         component:PostDetail,
         props:true
 
+    },
+            {
+        path: '/create',
+        name: "create",
+        component:CreatePost
+
     }
+
 
 
 ]

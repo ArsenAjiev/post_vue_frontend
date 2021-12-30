@@ -6,7 +6,7 @@
            <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Tutorials</a>
+           <router-link class="btn btn-success" to="/create"> Create Article </router-link>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Articles</a>
