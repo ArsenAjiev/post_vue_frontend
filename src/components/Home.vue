@@ -34,7 +34,7 @@ name: "Home",
   },
   methods: {
   geaAllArticles() {
-      fetch('http://127.0.0.1:8000/api/v1/post/', {
+      fetch('https://postdjangobackend.herokuapp.com/api/v1/post/', {
         method: "GET",
         headers:{
           "Content-Type": "application/json",

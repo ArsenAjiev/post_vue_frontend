@@ -55,7 +55,7 @@ export default {
         }
         else {
           console.warn("data exist")
-        fetch(`http://127.0.0.1:8000/api/v1/post/${this.id}/`, {
+        fetch(`https://postdjangobackend.herokuapp.com/api/v1/post/${this.id}/`, {
         method: "PUT",
         headers:{
           "Content-Type": "application/json",
@@ -72,7 +72,7 @@ export default {
   },
   beforeRouteEnter(to, from, next) {
     if(to.params.id !== undefined) {
-      fetch(`http://127.0.0.1:8000/api/v1/post/${to.params.id}`, {
+      fetch(`https://postdjangobackend.herokuapp.com/api/v1/post/${to.params.id}`, {
         method: "GET",
         headers:{
           "Content-Type": "application/json",

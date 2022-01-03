@@ -42,7 +42,7 @@ export default {
   name: "PostDetails",
   methods: {
     deleteArticle() {
-      fetch(`http://127.0.0.1:8000/api/v1/post/${this.id}`, {
+      fetch(`https://postdjangobackend.herokuapp.com/api/v1/post/${this.id}`, {
       method: "DELETE",
       headers: {
         "Content-Type":"application/json",
@@ -58,7 +58,7 @@ export default {
     });
     },
     getArticleData(){
-            fetch(`http://127.0.0.1:8000/api/v1/post/${this.id}`, {
+            fetch(`https://postdjangobackend.herokuapp.com/api/v1/post/${this.id}`, {
         method: "GET",
         headers: {
           "Content-Type":"application/json",
