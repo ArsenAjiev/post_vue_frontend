@@ -6,7 +6,7 @@
            <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item">
-           <router-link class="btn btn-primary" to="/create"> Create Article </router-link>
+           <router-link class="btn btn-primary" to="/create"> Create Post </router-link>
         </li>
      </ul>
 </nav>

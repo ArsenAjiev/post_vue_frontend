@@ -1,5 +1,5 @@
 <template>
-<h1> create article</h1>
+<h1> create Post</h1>
 
   <div class="container mt-4">
 

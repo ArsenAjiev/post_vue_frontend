@@ -3,8 +3,10 @@
 npm install vue-router@4
 ```
 
-screenshot on localhost
+screenshot on heroku
 ====
+Link [https://postvuefrontend.herokuapp.com/](https://postvuefrontend.herokuapp.com/)
+
 
 1. Home Page
 
@@ -12,15 +14,15 @@ screenshot on localhost
    
 2. Create Post
 
-   ![](./src/assets/Home_page.png)
+   ![](./src/assets/Create_Post.png)
 
 3. Post
 
-   ![](./src/assets/Home_page.png)
+   ![](./src/assets/Post.png)
    
 4. Update Post
 
-   ![](./src/assets/Home_page.png)
+   ![](./src/assets/Update_Post.png)
 
 
 Deploy to heroku
